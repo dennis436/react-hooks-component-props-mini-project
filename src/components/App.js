@@ -2,7 +2,8 @@ import React from "react";
 import ArticleList from "./ArticleList";
 import Header from "./Header";
 import About from "./About";
-import blogData from "./data/blog";
+import blogData from "../data/blog";
+
 
 function App() {
   const { name, image, about, posts } = blogData;
